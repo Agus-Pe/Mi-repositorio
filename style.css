@@ -34,6 +34,8 @@ li , ul {
 
 .colorbarra{
     background-image: linear-gradient(rgb(75, 97, 41), rgb(255, 255, 255));
+    max-width: 1600px;
+    width: 100%;
 }
 
 
