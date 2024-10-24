@@ -158,6 +158,11 @@ section img {
     margin-top: 25px;
 }
 
+.btn1{
+    width: 50px;
+    align-items: center;
+}
+
 /**-----------PAGE POLITICA DE REEMBOLSO------------**/
 .main_h1-p--pdr{
     padding: 40px;
