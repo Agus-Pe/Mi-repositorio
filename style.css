@@ -20,7 +20,7 @@ li , ul {
 #body {
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    max-width: 1600px;
 }
 
 /*NAV BTS*/
@@ -108,6 +108,7 @@ section img {
 #footer {
     height: 100px;
     width: 100%;
+    max-width: 1600px;
     position: fixed;
     z-index: 1;
     display: flex;
