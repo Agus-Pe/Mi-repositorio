@@ -20,10 +20,12 @@ li , ul {
 #body {
     display: flex;
     flex-direction: column;
-    max-width: 1600px;
+    max-width: auto;
 }
 
 /*NAV BTS*/
+
+
 .navbar-brand img{
     width: 80px;
 }
@@ -32,12 +34,16 @@ li , ul {
     padding: 10px;
 }
 
+
 .colorbarra{
     background-image: linear-gradient(rgb(75, 97, 41), rgb(255, 255, 255));
     max-width: 1600px;
     width: 100%;
 }
 
+.nav{
+    min-width: auto;
+}
 
 /*CONTENIDO*/
 
@@ -83,6 +89,7 @@ section img {
     margin: 0 auto;
     margin: 60px;
     width: 30%;
+    min-width: 250px;
 }
 
 .container h1 {
@@ -100,11 +107,10 @@ section img {
 
 
 
-  /**------------FOOTER------------**/
+/**------------FOOTER------------**/
 #footer {
     height: 100px;
     width: 100%;
-    max-width: 1600px;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -137,6 +143,92 @@ section img {
     justify-content: space-around;
 }
 
+
+
+/**-----------PAGE PRODUCTOS------------**/
+.productos-main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.grid-container {
+    display: grid;
+    width: 1000px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    grid-template-areas: 
+    "item1 item2 item3"
+    "item4 item5 item6"
+    ;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.grid-container div{
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+
+@media (max-width: 900px) { 
+    .grid-container{
+        width: 100%;
+        max-width: 400px;
+        column-gap: 60px;
+        grid-template-columns: repeat(2,200pxfr);
+        grid-template-rows: repeat(3, 250px);
+        grid-template-areas: 
+        "item1 item2"
+        "item3 item4"
+        "item5 item6"
+        ;
+    }
+    .grid-item {
+        text-align: center;
+    }
+}
+
+@media (max-width: 600px) { 
+    .grid-container{
+        width: 100%;
+        max-width: 300px;
+        grid-gap: 30px;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(6, 250px);
+        grid-template-areas: 
+        "item1"
+        "item2"
+        "item3"
+        "item4"
+        "item5"
+        "item6"
+        ;
+    }
+}
+
+
 /**-----------PAGE CONTACTO------------**/
 .main_h1--contacto {
     text-align: center;
@@ -161,15 +253,35 @@ section img {
 
 .btn1{
     width: 50px;
-    align-items: center;
 }
 
 /**-----------PAGE POLITICA DE REEMBOLSO------------**/
-.main_h1-p--pdr{
-    padding: 40px;
+#main-pdr{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-/**-----------PAGE COMO COMPRAR------------**/
-.main_p-cm{
+#main-pdr h1{
     padding: 40px;
+    text-align: center;
+}
+
+#main-pdr p{
+    padding: 30px;
+}
+/**-----------PAGE COMO COMPRAR------------**/
+#main-cm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#main-cm h1{
+    padding: 40px;
+    text-align: center;
+}
+
+#main-cm p{
+    padding: 30px;
 }
