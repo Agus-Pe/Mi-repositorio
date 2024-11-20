@@ -1,0 +1,60 @@
+/**------------MAIN------------**/
+#main {
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.container{
+    h1 {
+    color: rgb(0, 0, 0);
+    font-size: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 0 0 1em rgb(255, 255, 249);
+    text-align: center;
+    }
+
+    p{
+        font-size: medium;
+        text-align: center;
+    }
+
+}
+
+section{
+    margin: 30px 5%;
+    font-size: small;
+        img{
+            justify-content: space-between;
+            margin: 0 auto;
+            margin: 60px;
+            width: 30%;
+            min-width: 250px;
+        }
+
+        h2{
+            margin: 10px;
+        }
+
+        article{
+            margin: 0 10px 40px;
+            font-size: medium;
+            text-align: center;
+            h4{
+                color: rgb(111, 28, 28);
+                font-size: medium;
+                text-align: center;
+            }
+
+            h3{
+                color: rgb(111, 28, 28);
+                font-size: xx-large;
+                text-align: center;
+            }
+        }
+    }
+

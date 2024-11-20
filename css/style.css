@@ -22,77 +22,6 @@ li, ul {
   max-width: auto;
 }
 
-/**------------NAV------------**/
-.navbar-brand img {
-  width: 80px;
-}
-
-.navbar-brand {
-  padding: 10px;
-}
-
-.colorbarra {
-  background-image: linear-gradient(rgb(75, 97, 41), rgb(255, 255, 255));
-  max-width: 1600px;
-  width: 100%;
-}
-
-.nav {
-  min-width: auto;
-}
-
-/**------------MAIN------------**/
-#main {
-  background-size: cover;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-.container h1 {
-  color: rgb(0, 0, 0);
-  font-size: 80px;
-  font-family: Georgia, "Times New Roman", Times, serif;
-  text-shadow: 0 0 1em rgb(255, 255, 249);
-  text-align: center;
-}
-.container p {
-  font-size: medium;
-  text-align: center;
-}
-
-section {
-  margin: 30px 5%;
-  font-size: small;
-}
-section img {
-  justify-content: space-between;
-  margin: 0 auto;
-  margin: 60px;
-  width: 30%;
-  min-width: 250px;
-}
-section h2 {
-  margin: 10px;
-}
-section article {
-  margin: 0 10px 40px;
-  font-size: medium;
-  text-align: center;
-}
-section article h4 {
-  color: rgb(111, 28, 28);
-  font-size: medium;
-  text-align: center;
-}
-section article h3 {
-  color: rgb(111, 28, 28);
-  font-size: xx-large;
-  text-align: center;
-}
-
 /**------------FOOTER------------**/
 #footer {
   height: 100px;
@@ -127,6 +56,25 @@ section article h3 {
   width: 100%;
   max-width: 400px;
   justify-content: space-around;
+}
+
+/**------------NAV------------**/
+.navbar-brand img {
+  width: 80px;
+}
+
+.navbar-brand {
+  padding: 10px;
+}
+
+.colorbarra {
+  background-image: linear-gradient(rgb(75, 97, 41), rgb(255, 255, 255));
+  max-width: 1600px;
+  width: 100%;
+}
+
+.nav {
+  min-width: auto;
 }
 
 /**-----------PAGE PRODUCTOS------------**/
@@ -250,6 +198,58 @@ section article h3 {
 }
 #main-cm p {
   padding: 40px;
+}
+
+/**------------MAIN------------**/
+#main {
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.container h1 {
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-shadow: 0 0 1em rgb(255, 255, 249);
+  text-align: center;
+}
+.container p {
+  font-size: medium;
+  text-align: center;
+}
+
+section {
+  margin: 30px 5%;
+  font-size: small;
+}
+section img {
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: 60px;
+  width: 30%;
+  min-width: 250px;
+}
+section h2 {
+  margin: 10px;
+}
+section article {
+  margin: 0 10px 40px;
+  font-size: medium;
+  text-align: center;
+}
+section article h4 {
+  color: rgb(111, 28, 28);
+  font-size: medium;
+  text-align: center;
+}
+section article h3 {
+  color: rgb(111, 28, 28);
+  font-size: xx-large;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
